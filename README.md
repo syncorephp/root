@@ -1,1 +1,2 @@
-# root
+Syncore Standard Edition
+========================

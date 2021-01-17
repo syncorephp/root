@@ -1,6 +1,33 @@
-composer.phar
-/vendor/
+# PHP Storm by JetBrains
+.idea/
 
-# Commit your application's lock file https://getcomposer.org/doc/01-basic-usage.md#commit-your-composer-lock-file-to-version-control
-# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
-# composer.lock
+# Visual Studio Code
+.vscode/
+
+# NetBeans
+nbproject/
+
+# Composer packagist
+composer.lock
+vendor/
+
+# PhpUnit framework
+phpunit.xml
+.phpunit
+.phpunit.result.cache
+
+# NPM package
+packages.json
+package.tar
+node_modules/
+
+# Server environment
+.env
+.env.backup
+
+# Public htdocs directory
+web/hot/
+web/storage/
+
+# Storage private keys
+var/logs/apache-httpd/*.log

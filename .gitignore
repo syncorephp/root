@@ -1,33 +1,32 @@
 # PHP Storm by JetBrains
-.idea/
+/.idea/
 
 # Visual Studio Code
-.vscode/
+/.vscode/
 
 # NetBeans
-nbproject/
+/nbproject/
 
 # Composer packagist
 composer.lock
-vendor/
+/vendor/
 
 # PhpUnit framework
 phpunit.xml
-.phpunit
 .phpunit.result.cache
 
 # NPM package
 packages.json
 package.tar
-node_modules/
+/node_modules/
 
 # Server environment
 .env
 .env.backup
 
 # Public htdocs directory
-web/hot/
-web/storage/
+/web/hot/*
+/web/storage/*
 
 # Storage private keys
-var/logs/apache-httpd/*.log
+/var/logs/apache-httpd/*.log
